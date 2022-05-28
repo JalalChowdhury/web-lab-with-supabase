@@ -1,0 +1,24 @@
+
+
+.form-design{
+    /* background-color: gray; */
+    margin: 50px;
+    padding: 40px;
+}
+
+.input-design{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    width: 30%;
+}
+.button-design{
+
+    background-color: salmon;
+    padding: 13px 30px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: white;
+}
