@@ -12,21 +12,26 @@
 </head>
 
 <body>
-    <h1>Hello! kasher amnusjon</h1>
-    <h1>
-        Login Form
-    </h1>
-
+    
+   
     <div class="form-design">
         <h1>Hello! Food Lover</h1>
         
 
         <input class="input-design" type="text" id="input1" placeholder="Food-Name"> <br>
 
-        <button type="submit" class="button-design" id="btn" onclick="onPress()">Submit</button>
+        <button onclick="onPress()" type="submit" class="button-design" id="btn" >Submit</button>
+        <!-- onclick="onPress()" -->
+
+        <br><br>
+
+        <button onclick="fetchData(event)"  type="submit" class="button-design" >Get Data</button>
+        <div id="title">
+            
+        </div>
     </div>
 
-    <h1 id="title"></h1>
+    
 
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
     <script src="index.js"></script>
